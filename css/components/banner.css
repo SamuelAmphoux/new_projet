@@ -1,0 +1,70 @@
+.banner{
+  background-color: #060606d1;
+  height: 80vh;
+  background-image: url("../../images/books.jpg");
+  background-size: cover;
+}
+
+.navbar{
+  background-color: #fffefcde;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+}
+
+.navbar h2{
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 2px 2px 0px #d3c9c9;
+}
+
+.icons{
+  display: flex;
+  gap: 16px;
+}
+
+.header{
+  text-align: center;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300px;
+  margin-top: 16px;
+  text-shadow: 2px 2px 0px black;
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500px;
+  margin-top: 64px;
+  text-shadow: 2px 2px 0px black;
+}
+
+.welcome{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  width: fit-content;
+  margin: 64px auto;
+  background-color: white;
+  border-radius: 32px;
+  padding:  0 16px;
+}
+
+form{
+  margin: 0;
+  padding: 16px;
+}
+
+input{
+  border: none;
+}
